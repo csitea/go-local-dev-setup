@@ -1,0 +1,151 @@
+FROM debian:stable-slim
+
+# START ::: args-vars
+ARG UID
+ARG GID
+ARG BASE_DIR
+ARG PRODUCT
+ARG ORG_DIR
+ARG PRODUCT_DIR
+ARG APPUSR
+ARG APPGRP
+ARG HOME_PRODUCT_DIR
+ARG MOUNT_WORK_DIR
+ARG DOCKER_SHELL
+ARG DOCKER_HOME
+ARG RUN_SCRIPT
+ARG DOCKER_INIT_SCRIPT
+ARG GITLAB_TOKEN
+ARG GIT_USER_EMAIL
+
+# Set environment variables
+ENV DEBIAN_FRONTEND="non-interactive"
+
+ENV MODULE='go-local-dev-setup'
+ENV BASE_DIR=$BASE_DIR
+ENV ORG=$ORG
+ENV PRODUCT=$PRODUCT
+ENV ORG_DIR=$ORG_DIR
+ENV PRODUCT_DIR=$PRODUCT_DIR
+ENV EDITOR="vim"
+ENV APPUSR=$APPUSR
+ENV APPGRP=$APPGRP
+ENV HOME_DIR="/home/$APPUSR"
+ENV PS1='`date "+%F %T"` \u@\h  \w \n\n  '
+
+ENV HOME_PRODUCT_DIR=$HOME_PRODUCT_DIR
+ENV MOUNT_WORK_DIR=$MOUNT_WORK_DIR
+ENV DOCKER_SHELL=$DOCKER_SHELL
+ENV DOCKER_HOME=$DOCKER_HOME
+ENV RUN_SCRIPT=$RUN_SCRIPT
+ENV DOCKER_INIT_SCRIPT=$DOCKER_INIT_SCRIPT
+ENV GITLAB_TOKEN=$GITLAB_TOKEN
+ENV GIT_USER_EMAIL=$GIT_USER_EMAIL
+
+# Ensure non-interactive mode for apt-get
+ENV DEBIAN_FRONTEND="noninteractive"
+
+
+
+
+# STOP  ::: args-vars
+
+
+# set the default shell as bash and not sh
+SHELL ["/usr/bin/bash", "-c"]
+
+VOLUME $MOUNT_WORK_DIR
+
+# START ::: install OS & uril bins
+RUN apt-get update && apt-get install -y \
+  bash perl jq vim wget curl sudo zip unzip tar make gcc git bsdmainutils tzdata \
+  && rm -rf /var/lib/apt/lists/*
+
+# STOP ::: install OS & util bins
+
+# START ::: install the bo binary and run-time libs
+ENV GO_VERSION="1.21.1"
+
+# Download and install the latest version of Go
+RUN wget "https://golang.org/dl/go${GO_VERSION:-}.linux-amd64.tar.gz" \
+    && tar -C /usr/local -xzf "go${GO_VERSION:-}.linux-amd64.tar.gz" \
+    && rm "go${GO_VERSION:-}.linux-amd64.tar.gz"
+
+# Set environment variables for Go
+ENV PATH="/usr/local/go/bin:${PATH:-}"
+
+ENV GOPATH="/go"
+ENV GOBIN="${GOPATH:-}/bin"
+
+# Create Go workspace
+RUN mkdir -p "${GOBIN:-}"
+
+# STOP  ::: install the go binary and run-time libs
+
+
+# START ::: add-os-user
+RUN if getent group $GID; then groupmod -g $((GID+2000)) $(getent group $GID | cut -d: -f1); fi
+
+# create a APPGRP and APPUSR
+# START ::: add-os-user
+RUN set -x ; groupadd -g "$GID" "$APPGRP" && \
+  useradd \
+  --gid "$GID" \
+  --non-unique \
+  --shell "$DOCKER_SHELL" \
+  --home-dir "/home/appusr" \
+  --uid "$UID" \
+  --groups "$APPGRP" "$APPUSR" && exit 0 ; exit 1
+
+# create home directory and change its ownership to APPUSR:APPGRP
+RUN mkdir -p "/home/$APPUSR" && chown "$APPUSR":"$APPGRP" "/home/$APPUSR"
+
+
+RUN echo "$APPUSR ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
+
+
+
+# STOP  ::: add-os-user
+
+
+
+# START ::: add the src
+ADD --chown=$APPUSR:$APPGRP "." "${HOME_PRODUCT_DIR}"
+
+RUN sudo chmod 0775 $HOME_PRODUCT_DIR/src/bash/run/docker-init-${MODULE}.sh
+
+RUN echo 'export PS1="`date "+%F %T"` \u@\h  \w \n\n  "' >> $DOCKER_HOME/.bashrc && \
+  chown -R $APPUSR:$APPGRP $DOCKER_HOME && \
+  chmod -R 0775 $DOCKER_HOME
+
+
+# stop ::: adding OS APPUSER and APPGROUP
+
+
+
+USER $APPUSR
+
+# START ::: build the go app
+
+# Set GOPATH to your project directory
+ENV GOPATH="${HOME_PRODUCT_DIR}/"
+RUN echo "export GOPATH="${PRODUCT_DIR} >> $DOCKER_HOME/.bashrc
+# Set path to the  Go source directory
+ENV GOSRC_DIR="${HOME_PRODUCT_DIR}/src/go/${MODULE}/src/${MODULE}"
+ENV HOME_GO_PROJ_ROOT_DIR="${HOME_PRODUCT_DIR}/src/go/${MODULE}"
+RUN echo "export GOSRC_DIR="${GOSRC_DIR} >> ${DOCKER_HOME}/.bashrc
+
+WORKDIR ${HOME_GO_PROJ_ROOT_DIR}
+RUN test -f go.mod && rm -fv go.mod || true
+RUN go mod init ${MODULE}
+
+WORKDIR ${GOSRC_DIR}
+RUN go build -o ${MODULE} -buildvcs=false && ./${MODULE}
+
+# STOP ::: build the app go
+# Set the working directory
+
+WORKDIR $PRODUCT_DIR
+
+CMD exec /bin/bash -c "${HOME_PRODUCT_DIR}/src/bash/scripts/docker-init-${MODULE}.sh"
+
