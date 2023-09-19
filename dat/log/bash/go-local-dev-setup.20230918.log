@@ -1,0 +1,379 @@
+[0;34m ℹ  [INFO] 2023-09-18 16:24:50 EEST [go-local-dev-setup][@mac-02] [56648] START ::: running action :: do_print_usage  [0m
+[0;34m ℹ  [INFO] 2023-09-18 16:25:00 EEST [go-local-dev-setup][@mac-02] [57213] START ::: running action :: do_morph_module  [0m
+[0;34m ℹ  [INFO] 2023-09-18 16:25:33 EEST [go-local-dev-setup][@mac-02] [57782] START ::: running action :: do_morph_module  [0m
+[0;34m ℹ  [INFO] 2023-09-18 16:25:33 EEST [go-local-dev-setup][@mac-02] [57782] produced the /opt/csi/go-local-dev-setup.zip file  [0m
+[0;34m ℹ  [INFO] 2023-09-18 16:25:33 EEST [go-local-dev-setup][@mac-02] [57782] DIR_TO_MORPH: /opt/csi/go-cli-app  [0m
+[0;34m ℹ  [INFO] 2023-09-18 16:25:33 EEST [go-local-dev-setup][@mac-02] [57782] STR_TO_SRCH:"go-local-dev-setup"  [0m
+[0;34m ℹ  [INFO] 2023-09-18 16:25:34 EEST [go-local-dev-setup][@mac-02] [57782] STR_TO_REPL:"go-cli-app"  [0m
+[0;34m ℹ  [INFO] 2023-09-18 16:25:36 EEST [go-local-dev-setup][@mac-02] [57782] START :: search and replace in non-binary files  [0m
+ [DEBUG] 2023-09-18 16:25:36 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/.editorconfig 
+ [DEBUG] 2023-09-18 16:25:36 EEST [go-local-dev-setup][@mac-02] [57782] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:25:36 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/manjaro-install-bins.func.sh 
+ [DEBUG] 2023-09-18 16:25:36 EEST [go-local-dev-setup][@mac-02] [57782] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:25:36 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/resolve-dirname.func.sh 
+ [DEBUG] 2023-09-18 16:25:36 EEST [go-local-dev-setup][@mac-02] [57782] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:25:36 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/require-var.func.sh 
+ [DEBUG] 2023-09-18 16:25:36 EEST [go-local-dev-setup][@mac-02] [57782] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:25:36 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/ubuntu-install-bins.func.sh 
+ [DEBUG] 2023-09-18 16:25:36 EEST [go-local-dev-setup][@mac-02] [57782] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:25:36 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/set-vars-on-suse.func.sh 
+ [DEBUG] 2023-09-18 16:25:36 EEST [go-local-dev-setup][@mac-02] [57782] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:25:36 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/set-vars-on-alpine.func.sh 
+ [DEBUG] 2023-09-18 16:25:36 EEST [go-local-dev-setup][@mac-02] [57782] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:25:36 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/test-helpers.sh 
+ [DEBUG] 2023-09-18 16:25:36 EEST [go-local-dev-setup][@mac-02] [57782] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:25:36 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/zip-me.func.sh 
+ [DEBUG] 2023-09-18 16:25:36 EEST [go-local-dev-setup][@mac-02] [57782] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:25:36 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/mac-install-bins.func.sh 
+ [DEBUG] 2023-09-18 16:25:36 EEST [go-local-dev-setup][@mac-02] [57782] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:25:37 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/parse-ini-section-vars.func.sh 
+ [DEBUG] 2023-09-18 16:25:37 EEST [go-local-dev-setup][@mac-02] [57782] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:25:37 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/morph-dir.func.sh 
+ [DEBUG] 2023-09-18 16:25:37 EEST [go-local-dev-setup][@mac-02] [57782] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:25:37 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/set-vars-on-ubuntu.func.sh 
+ [DEBUG] 2023-09-18 16:25:37 EEST [go-local-dev-setup][@mac-02] [57782] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:25:37 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/flush-screen.func.sh 
+ [DEBUG] 2023-09-18 16:25:37 EEST [go-local-dev-setup][@mac-02] [57782] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:25:37 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/suse-install-bins.func.sh 
+ [DEBUG] 2023-09-18 16:25:37 EEST [go-local-dev-setup][@mac-02] [57782] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:25:37 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/set-vars-on-mac.func.sh 
+ [DEBUG] 2023-09-18 16:25:37 EEST [go-local-dev-setup][@mac-02] [57782] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:25:37 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/export-json-section-vars.func.sh 
+ [DEBUG] 2023-09-18 16:25:37 EEST [go-local-dev-setup][@mac-02] [57782] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:25:37 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/src/bash/run/set-vars-on-manjaro.func.sh 
+ [DEBUG] 2023-09-18 16:25:37 EEST [go-local-dev-setup][@mac-02] [57782] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:25:37 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/src/bash/run/scan-to-list-file.func.sh 
+ [DEBUG] 2023-09-18 16:25:37 EEST [go-local-dev-setup][@mac-02] [57782] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:25:37 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/src/bash/run/set-vars-on-fedora.func.sh 
+ [DEBUG] 2023-09-18 16:25:37 EEST [go-local-dev-setup][@mac-02] [57782] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:25:37 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/src/bash/run/set-vars-on-suse.func.sh 
+ [DEBUG] 2023-09-18 16:25:37 EEST [go-local-dev-setup][@mac-02] [57782] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:25:37 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/src/bash/run/zip-me-as-module.func.sh 
+ [DEBUG] 2023-09-18 16:25:37 EEST [go-local-dev-setup][@mac-02] [57782] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:25:37 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/src/bash/run/set-vars-on-alpine.func.sh 
+ [DEBUG] 2023-09-18 16:25:37 EEST [go-local-dev-setup][@mac-02] [57782] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:25:37 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/src/bash/run/print-usage.func.sh 
+ [DEBUG] 2023-09-18 16:25:37 EEST [go-local-dev-setup][@mac-02] [57782] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:25:38 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/src/bash/run/run.sh 
+ [DEBUG] 2023-09-18 16:25:38 EEST [go-local-dev-setup][@mac-02] [57782] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:25:38 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/src/bash/run/morph-module.func.sh 
+ [DEBUG] 2023-09-18 16:25:38 EEST [go-local-dev-setup][@mac-02] [57782] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:25:38 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/src/bash/run/set-vars-on-ubuntu.func.sh 
+ [DEBUG] 2023-09-18 16:25:38 EEST [go-local-dev-setup][@mac-02] [57782] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:25:38 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/src/bash/run/set-vars-on-mac.func.sh 
+ [DEBUG] 2023-09-18 16:25:38 EEST [go-local-dev-setup][@mac-02] [57782] searching for go-local-dev-setup , replacing with :: go-cli-app 
+[0;34m ℹ  [INFO] 2023-09-18 16:25:38 EEST [go-local-dev-setup][@mac-02] [57782] STOP :: search and replace in non-binary files  [0m
+[0;34m ℹ  [INFO] 2023-09-18 16:25:38 EEST [go-local-dev-setup][@mac-02] [57782] search and replace in dir and file paths DIR_TO_MORPH:/opt/csi/go-cli-app  [0m
+ [DEBUG] 2023-09-18 16:25:38 EEST [go-local-dev-setup][@mac-02] [57782] SRC_MODULE_UNDERSCORED: go_local_dev_setup 
+ [DEBUG] 2023-09-18 16:25:38 EEST [go-local-dev-setup][@mac-02] [57782] TGT_MODULE_UNDERSCORED: go_cli_app 
+[0;34m ℹ  [INFO] 2023-09-18 16:25:39 EEST [go-local-dev-setup][@mac-02] [57782] DIR_TO_MORPH: /opt/csi/go-cli-app  [0m
+[0;34m ℹ  [INFO] 2023-09-18 16:25:39 EEST [go-local-dev-setup][@mac-02] [57782] STR_TO_SRCH:"go_local_dev_setup"  [0m
+[0;34m ℹ  [INFO] 2023-09-18 16:25:39 EEST [go-local-dev-setup][@mac-02] [57782] STR_TO_REPL:"go_cli_app"  [0m
+[0;34m ℹ  [INFO] 2023-09-18 16:25:41 EEST [go-local-dev-setup][@mac-02] [57782] START :: search and replace in non-binary files  [0m
+ [DEBUG] 2023-09-18 16:25:42 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/.editorconfig 
+ [DEBUG] 2023-09-18 16:25:42 EEST [go-local-dev-setup][@mac-02] [57782] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:25:42 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/manjaro-install-bins.func.sh 
+ [DEBUG] 2023-09-18 16:25:42 EEST [go-local-dev-setup][@mac-02] [57782] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:25:42 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/resolve-dirname.func.sh 
+ [DEBUG] 2023-09-18 16:25:42 EEST [go-local-dev-setup][@mac-02] [57782] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:25:42 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/require-var.func.sh 
+ [DEBUG] 2023-09-18 16:25:42 EEST [go-local-dev-setup][@mac-02] [57782] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:25:42 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/ubuntu-install-bins.func.sh 
+ [DEBUG] 2023-09-18 16:25:42 EEST [go-local-dev-setup][@mac-02] [57782] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:25:42 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/set-vars-on-suse.func.sh 
+ [DEBUG] 2023-09-18 16:25:42 EEST [go-local-dev-setup][@mac-02] [57782] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:25:42 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/set-vars-on-alpine.func.sh 
+ [DEBUG] 2023-09-18 16:25:42 EEST [go-local-dev-setup][@mac-02] [57782] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:25:42 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/test-helpers.sh 
+ [DEBUG] 2023-09-18 16:25:42 EEST [go-local-dev-setup][@mac-02] [57782] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:25:42 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/zip-me.func.sh 
+ [DEBUG] 2023-09-18 16:25:42 EEST [go-local-dev-setup][@mac-02] [57782] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:25:42 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/mac-install-bins.func.sh 
+ [DEBUG] 2023-09-18 16:25:42 EEST [go-local-dev-setup][@mac-02] [57782] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:25:42 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/parse-ini-section-vars.func.sh 
+ [DEBUG] 2023-09-18 16:25:42 EEST [go-local-dev-setup][@mac-02] [57782] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:25:43 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/morph-dir.func.sh 
+ [DEBUG] 2023-09-18 16:25:43 EEST [go-local-dev-setup][@mac-02] [57782] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:25:43 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/set-vars-on-ubuntu.func.sh 
+ [DEBUG] 2023-09-18 16:25:43 EEST [go-local-dev-setup][@mac-02] [57782] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:25:43 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/flush-screen.func.sh 
+ [DEBUG] 2023-09-18 16:25:43 EEST [go-local-dev-setup][@mac-02] [57782] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:25:43 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/suse-install-bins.func.sh 
+ [DEBUG] 2023-09-18 16:25:43 EEST [go-local-dev-setup][@mac-02] [57782] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:25:43 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/set-vars-on-mac.func.sh 
+ [DEBUG] 2023-09-18 16:25:43 EEST [go-local-dev-setup][@mac-02] [57782] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:25:43 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/lib/bash/funcs/export-json-section-vars.func.sh 
+ [DEBUG] 2023-09-18 16:25:43 EEST [go-local-dev-setup][@mac-02] [57782] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:25:43 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/src/bash/run/set-vars-on-manjaro.func.sh 
+ [DEBUG] 2023-09-18 16:25:43 EEST [go-local-dev-setup][@mac-02] [57782] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:25:43 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/src/bash/run/scan-to-list-file.func.sh 
+ [DEBUG] 2023-09-18 16:25:43 EEST [go-local-dev-setup][@mac-02] [57782] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:25:43 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/src/bash/run/set-vars-on-fedora.func.sh 
+ [DEBUG] 2023-09-18 16:25:43 EEST [go-local-dev-setup][@mac-02] [57782] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:25:43 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/src/bash/run/set-vars-on-suse.func.sh 
+ [DEBUG] 2023-09-18 16:25:43 EEST [go-local-dev-setup][@mac-02] [57782] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:25:43 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/src/bash/run/zip-me-as-module.func.sh 
+ [DEBUG] 2023-09-18 16:25:43 EEST [go-local-dev-setup][@mac-02] [57782] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:25:43 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/src/bash/run/set-vars-on-alpine.func.sh 
+ [DEBUG] 2023-09-18 16:25:43 EEST [go-local-dev-setup][@mac-02] [57782] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:25:43 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/src/bash/run/print-usage.func.sh 
+ [DEBUG] 2023-09-18 16:25:43 EEST [go-local-dev-setup][@mac-02] [57782] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:25:43 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/src/bash/run/run.sh 
+ [DEBUG] 2023-09-18 16:25:43 EEST [go-local-dev-setup][@mac-02] [57782] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:25:44 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/src/bash/run/morph-module.func.sh 
+ [DEBUG] 2023-09-18 16:25:44 EEST [go-local-dev-setup][@mac-02] [57782] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:25:44 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/src/bash/run/set-vars-on-ubuntu.func.sh 
+ [DEBUG] 2023-09-18 16:25:44 EEST [go-local-dev-setup][@mac-02] [57782] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:25:44 EEST [go-local-dev-setup][@mac-02] [57782] working on file: /opt/csi/go-cli-app/src/bash/run/set-vars-on-mac.func.sh 
+ [DEBUG] 2023-09-18 16:25:44 EEST [go-local-dev-setup][@mac-02] [57782] searching for go_local_dev_setup , replacing with :: go_cli_app 
+[0;34m ℹ  [INFO] 2023-09-18 16:25:44 EEST [go-local-dev-setup][@mac-02] [57782] STOP :: search and replace in non-binary files  [0m
+[0;34m ℹ  [INFO] 2023-09-18 16:25:44 EEST [go-local-dev-setup][@mac-02] [57782] search and replace in dir and file paths DIR_TO_MORPH:/opt/csi/go-cli-app  [0m
+[0;34m ℹ  [INFO] 2023-09-18 16:25:44 EEST [go-local-dev-setup][@mac-02] [57782] STOP ::: running function :: do_morph_module  [0m
+[0;32m ✔ [OK]  [OK] 2023-09-18 16:25:44 EEST [go-local-dev-setup][@mac-02] [57782] run's run completed  [0m
+[0;34m ℹ  [INFO] 2023-09-18 16:29:31 EEST [go-local-dev-setup][@mac-02] [60285] START ::: running action :: do_print_usage  [0m
+[0;34m ℹ  [INFO] 2023-09-18 16:29:36 EEST [go-local-dev-setup][@mac-02] [60848] START ::: running action :: do_scan_to_list_file  [0m
+[0;34m ℹ  [INFO] 2023-09-18 16:29:36 EEST [go-local-dev-setup][@mac-02] [60848] produced the /opt/csi/go-local-dev-setup/cnf/lst/go-local-dev-setup.include.lst file  [0m
+[0;34m ℹ  [INFO] 2023-09-18 16:29:36 EEST [go-local-dev-setup][@mac-02] [60848] STOP ::: running function :: do_scan_to_list_file  [0m
+[0;32m ✔ [OK]  [OK] 2023-09-18 16:29:36 EEST [go-local-dev-setup][@mac-02] [60848] run's run completed  [0m
+[0;34m ℹ  [INFO] 2023-09-18 16:29:57 EEST [go-local-dev-setup][@mac-02] [61451] START ::: running action :: do_morph_module  [0m
+[0;34m ℹ  [INFO] 2023-09-18 16:29:57 EEST [go-local-dev-setup][@mac-02] [61451] produced the /opt/csi/go-local-dev-setup.zip file  [0m
+[0;34m ℹ  [INFO] 2023-09-18 16:29:57 EEST [go-local-dev-setup][@mac-02] [61451] DIR_TO_MORPH: /opt/csi/go-cli-app  [0m
+[0;34m ℹ  [INFO] 2023-09-18 16:29:57 EEST [go-local-dev-setup][@mac-02] [61451] STR_TO_SRCH:"go-local-dev-setup"  [0m
+[0;34m ℹ  [INFO] 2023-09-18 16:29:58 EEST [go-local-dev-setup][@mac-02] [61451] STR_TO_REPL:"go-cli-app"  [0m
+[0;34m ℹ  [INFO] 2023-09-18 16:30:00 EEST [go-local-dev-setup][@mac-02] [61451] START :: search and replace in non-binary files  [0m
+ [DEBUG] 2023-09-18 16:30:00 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/LICENSE 
+ [DEBUG] 2023-09-18 16:30:00 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:00 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/Makefile 
+ [DEBUG] 2023-09-18 16:30:00 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:00 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/.editorconfig 
+ [DEBUG] 2023-09-18 16:30:00 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:00 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/cnf/lst/go-cli-app.include.lst 
+ [DEBUG] 2023-09-18 16:30:00 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:00 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/cnf/lst/go-local-dev-setup.include.lst 
+ [DEBUG] 2023-09-18 16:30:00 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:00 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/cnf/lst/go-cli-app.exclude.lst 
+ [DEBUG] 2023-09-18 16:30:00 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:01 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/cnf/lst/go-local-dev-setup.exclude.lst 
+ [DEBUG] 2023-09-18 16:30:01 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:01 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/set-vars-on-manjaro.func.sh 
+ [DEBUG] 2023-09-18 16:30:01 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:01 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/manjaro-install-bins.func.sh 
+ [DEBUG] 2023-09-18 16:30:01 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:01 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/relative-path.func.sh 
+ [DEBUG] 2023-09-18 16:30:01 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:01 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/resolve-dirname.func.sh 
+ [DEBUG] 2023-09-18 16:30:01 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:01 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/require-var.func.sh 
+ [DEBUG] 2023-09-18 16:30:01 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:01 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/ubuntu-install-bins.func.sh 
+ [DEBUG] 2023-09-18 16:30:01 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:01 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/set-vars-on-fedora.func.sh 
+ [DEBUG] 2023-09-18 16:30:01 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:01 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/set-vars-on-suse.func.sh 
+ [DEBUG] 2023-09-18 16:30:01 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:01 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/set-vars-on-alpine.func.sh 
+ [DEBUG] 2023-09-18 16:30:01 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:01 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/test-helpers.sh 
+ [DEBUG] 2023-09-18 16:30:01 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:01 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/zip-me.func.sh 
+ [DEBUG] 2023-09-18 16:30:01 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:01 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/mac-install-bins.func.sh 
+ [DEBUG] 2023-09-18 16:30:01 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:01 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/list-dockers.func.sh 
+ [DEBUG] 2023-09-18 16:30:01 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:02 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/parse-ini-section-vars.func.sh 
+ [DEBUG] 2023-09-18 16:30:02 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:02 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/arch-install-bins.func.sh 
+ [DEBUG] 2023-09-18 16:30:02 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:02 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/morph-dir.func.sh 
+ [DEBUG] 2023-09-18 16:30:02 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:02 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/read-conf-section.func.sh 
+ [DEBUG] 2023-09-18 16:30:02 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:02 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/set-vars-on-ubuntu.func.sh 
+ [DEBUG] 2023-09-18 16:30:02 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:02 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/flush-screen.func.sh 
+ [DEBUG] 2023-09-18 16:30:02 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:02 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/suse-install-bins.func.sh 
+ [DEBUG] 2023-09-18 16:30:02 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:02 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/set-vars-on-mac.func.sh 
+ [DEBUG] 2023-09-18 16:30:02 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:02 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/export-json-section-vars.func.sh 
+ [DEBUG] 2023-09-18 16:30:02 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:02 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/get-env-var.func.sh 
+ [DEBUG] 2023-09-18 16:30:02 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:02 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/make/demand-var.func.mk 
+ [DEBUG] 2023-09-18 16:30:02 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:02 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/make/set-default-shell.mk 
+ [DEBUG] 2023-09-18 16:30:02 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:02 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/make/check-terraform.func.mk 
+ [DEBUG] 2023-09-18 16:30:02 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:02 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/make/install-img.func.mk 
+ [DEBUG] 2023-09-18 16:30:02 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:03 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/make/zip-me.func.mk 
+ [DEBUG] 2023-09-18 16:30:03 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:03 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/make/make-help.func.mk 
+ [DEBUG] 2023-09-18 16:30:03 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:03 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/make/set-env.func.mk 
+ [DEBUG] 2023-09-18 16:30:03 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:03 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/make/new-issue.func.mk 
+ [DEBUG] 2023-09-18 16:30:03 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:03 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/make/prune-docker-system.func.mk 
+ [DEBUG] 2023-09-18 16:30:03 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:03 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/make/stop-img-containers.func.mk 
+ [DEBUG] 2023-09-18 16:30:03 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:03 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/make/start-img-containers.func.mk 
+ [DEBUG] 2023-09-18 16:30:03 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:03 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/docker/go-local-dev-setup/Dockerfile.x86_64 
+ [DEBUG] 2023-09-18 16:30:03 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:03 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/go/go-local-dev-setup/src/go-local-dev-setup/main.go 
+ [DEBUG] 2023-09-18 16:30:03 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:03 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/bash/scripts/docker-init-go-local-dev-setup.sh 
+ [DEBUG] 2023-09-18 16:30:03 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:03 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/bash/run/set-vars-on-manjaro.func.sh 
+ [DEBUG] 2023-09-18 16:30:03 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:03 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/bash/run/scan-to-list-file.func.sh 
+ [DEBUG] 2023-09-18 16:30:03 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:03 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/bash/run/set-vars-on-fedora.func.sh 
+ [DEBUG] 2023-09-18 16:30:03 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:03 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/bash/run/set-vars-on-suse.func.sh 
+ [DEBUG] 2023-09-18 16:30:04 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:04 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/bash/run/zip-me-as-module.func.sh 
+ [DEBUG] 2023-09-18 16:30:04 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:04 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/bash/run/set-vars-on-alpine.func.sh 
+ [DEBUG] 2023-09-18 16:30:04 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:04 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/bash/run/print-usage.func.sh 
+ [DEBUG] 2023-09-18 16:30:04 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:04 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/bash/run/run.sh 
+ [DEBUG] 2023-09-18 16:30:04 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:04 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/bash/run/morph-module.func.sh 
+ [DEBUG] 2023-09-18 16:30:04 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:04 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/bash/run/set-vars-on-ubuntu.func.sh 
+ [DEBUG] 2023-09-18 16:30:04 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:04 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/bash/run/set-vars-on-mac.func.sh 
+ [DEBUG] 2023-09-18 16:30:04 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+ [DEBUG] 2023-09-18 16:30:04 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/make/install-go-local-dev-setup.mk 
+ [DEBUG] 2023-09-18 16:30:04 EEST [go-local-dev-setup][@mac-02] [61451] searching for go-local-dev-setup , replacing with :: go-cli-app 
+[0;34m ℹ  [INFO] 2023-09-18 16:30:04 EEST [go-local-dev-setup][@mac-02] [61451] STOP :: search and replace in non-binary files  [0m
+[0;34m ℹ  [INFO] 2023-09-18 16:30:04 EEST [go-local-dev-setup][@mac-02] [61451] search and replace in dir and file paths DIR_TO_MORPH:/opt/csi/go-cli-app  [0m
+ [DEBUG] 2023-09-18 16:30:05 EEST [go-local-dev-setup][@mac-02] [61451] SRC_MODULE_UNDERSCORED: go_local_dev_setup 
+ [DEBUG] 2023-09-18 16:30:05 EEST [go-local-dev-setup][@mac-02] [61451] TGT_MODULE_UNDERSCORED: go_cli_app 
+[0;34m ℹ  [INFO] 2023-09-18 16:30:06 EEST [go-local-dev-setup][@mac-02] [61451] DIR_TO_MORPH: /opt/csi/go-cli-app  [0m
+[0;34m ℹ  [INFO] 2023-09-18 16:30:06 EEST [go-local-dev-setup][@mac-02] [61451] STR_TO_SRCH:"go_local_dev_setup"  [0m
+[0;34m ℹ  [INFO] 2023-09-18 16:30:06 EEST [go-local-dev-setup][@mac-02] [61451] STR_TO_REPL:"go_cli_app"  [0m
+[0;34m ℹ  [INFO] 2023-09-18 16:30:08 EEST [go-local-dev-setup][@mac-02] [61451] START :: search and replace in non-binary files  [0m
+ [DEBUG] 2023-09-18 16:30:09 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/LICENSE 
+ [DEBUG] 2023-09-18 16:30:09 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:09 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/Makefile 
+ [DEBUG] 2023-09-18 16:30:09 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:09 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/.editorconfig 
+ [DEBUG] 2023-09-18 16:30:09 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:09 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/cnf/lst/go-cli-app.include.lst 
+ [DEBUG] 2023-09-18 16:30:09 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:09 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/cnf/lst/go-local-dev-setup.include.lst 
+ [DEBUG] 2023-09-18 16:30:09 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:09 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/cnf/lst/go-cli-app.exclude.lst 
+ [DEBUG] 2023-09-18 16:30:09 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:09 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/cnf/lst/go-local-dev-setup.exclude.lst 
+ [DEBUG] 2023-09-18 16:30:09 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:09 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/set-vars-on-manjaro.func.sh 
+ [DEBUG] 2023-09-18 16:30:09 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:10 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/manjaro-install-bins.func.sh 
+ [DEBUG] 2023-09-18 16:30:10 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:10 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/relative-path.func.sh 
+ [DEBUG] 2023-09-18 16:30:10 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:10 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/resolve-dirname.func.sh 
+ [DEBUG] 2023-09-18 16:30:10 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:10 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/require-var.func.sh 
+ [DEBUG] 2023-09-18 16:30:10 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:10 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/ubuntu-install-bins.func.sh 
+ [DEBUG] 2023-09-18 16:30:10 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:10 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/set-vars-on-fedora.func.sh 
+ [DEBUG] 2023-09-18 16:30:10 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:10 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/set-vars-on-suse.func.sh 
+ [DEBUG] 2023-09-18 16:30:10 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:10 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/set-vars-on-alpine.func.sh 
+ [DEBUG] 2023-09-18 16:30:10 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:10 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/test-helpers.sh 
+ [DEBUG] 2023-09-18 16:30:10 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:10 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/zip-me.func.sh 
+ [DEBUG] 2023-09-18 16:30:10 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:10 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/mac-install-bins.func.sh 
+ [DEBUG] 2023-09-18 16:30:10 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:10 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/list-dockers.func.sh 
+ [DEBUG] 2023-09-18 16:30:10 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:10 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/parse-ini-section-vars.func.sh 
+ [DEBUG] 2023-09-18 16:30:10 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:10 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/arch-install-bins.func.sh 
+ [DEBUG] 2023-09-18 16:30:11 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:11 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/morph-dir.func.sh 
+ [DEBUG] 2023-09-18 16:30:11 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:11 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/read-conf-section.func.sh 
+ [DEBUG] 2023-09-18 16:30:11 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:11 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/set-vars-on-ubuntu.func.sh 
+ [DEBUG] 2023-09-18 16:30:11 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:11 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/flush-screen.func.sh 
+ [DEBUG] 2023-09-18 16:30:11 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:11 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/suse-install-bins.func.sh 
+ [DEBUG] 2023-09-18 16:30:11 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:11 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/set-vars-on-mac.func.sh 
+ [DEBUG] 2023-09-18 16:30:11 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:11 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/export-json-section-vars.func.sh 
+ [DEBUG] 2023-09-18 16:30:11 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:11 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/bash/funcs/get-env-var.func.sh 
+ [DEBUG] 2023-09-18 16:30:11 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:11 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/make/demand-var.func.mk 
+ [DEBUG] 2023-09-18 16:30:11 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:11 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/make/set-default-shell.mk 
+ [DEBUG] 2023-09-18 16:30:11 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:11 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/make/check-terraform.func.mk 
+ [DEBUG] 2023-09-18 16:30:11 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:11 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/make/install-img.func.mk 
+ [DEBUG] 2023-09-18 16:30:11 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:11 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/make/zip-me.func.mk 
+ [DEBUG] 2023-09-18 16:30:11 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:12 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/make/make-help.func.mk 
+ [DEBUG] 2023-09-18 16:30:12 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:12 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/make/set-env.func.mk 
+ [DEBUG] 2023-09-18 16:30:12 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:12 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/make/new-issue.func.mk 
+ [DEBUG] 2023-09-18 16:30:12 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:12 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/make/prune-docker-system.func.mk 
+ [DEBUG] 2023-09-18 16:30:12 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:12 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/make/stop-img-containers.func.mk 
+ [DEBUG] 2023-09-18 16:30:12 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:12 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/lib/make/start-img-containers.func.mk 
+ [DEBUG] 2023-09-18 16:30:12 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:12 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/docker/go-cli-app/Dockerfile.x86_64 
+ [DEBUG] 2023-09-18 16:30:12 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:12 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/go/go-cli-app/src/go-cli-app/main.go 
+ [DEBUG] 2023-09-18 16:30:12 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:12 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/bash/scripts/docker-init-go-cli-app.sh 
+ [DEBUG] 2023-09-18 16:30:12 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:12 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/bash/run/set-vars-on-manjaro.func.sh 
+ [DEBUG] 2023-09-18 16:30:12 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:12 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/bash/run/scan-to-list-file.func.sh 
+ [DEBUG] 2023-09-18 16:30:12 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:12 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/bash/run/set-vars-on-fedora.func.sh 
+ [DEBUG] 2023-09-18 16:30:12 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:12 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/bash/run/set-vars-on-suse.func.sh 
+ [DEBUG] 2023-09-18 16:30:12 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:12 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/bash/run/zip-me-as-module.func.sh 
+ [DEBUG] 2023-09-18 16:30:12 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:13 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/bash/run/set-vars-on-alpine.func.sh 
+ [DEBUG] 2023-09-18 16:30:13 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:13 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/bash/run/print-usage.func.sh 
+ [DEBUG] 2023-09-18 16:30:13 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:13 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/bash/run/run.sh 
+ [DEBUG] 2023-09-18 16:30:13 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:13 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/bash/run/morph-module.func.sh 
+ [DEBUG] 2023-09-18 16:30:13 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:13 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/bash/run/set-vars-on-ubuntu.func.sh 
+ [DEBUG] 2023-09-18 16:30:13 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:13 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/bash/run/set-vars-on-mac.func.sh 
+ [DEBUG] 2023-09-18 16:30:13 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+ [DEBUG] 2023-09-18 16:30:13 EEST [go-local-dev-setup][@mac-02] [61451] working on file: /opt/csi/go-cli-app/src/make/install-go-cli-app.mk 
+ [DEBUG] 2023-09-18 16:30:13 EEST [go-local-dev-setup][@mac-02] [61451] searching for go_local_dev_setup , replacing with :: go_cli_app 
+[0;34m ℹ  [INFO] 2023-09-18 16:30:13 EEST [go-local-dev-setup][@mac-02] [61451] STOP :: search and replace in non-binary files  [0m
+[0;34m ℹ  [INFO] 2023-09-18 16:30:13 EEST [go-local-dev-setup][@mac-02] [61451] search and replace in dir and file paths DIR_TO_MORPH:/opt/csi/go-cli-app  [0m
+[0;34m ℹ  [INFO] 2023-09-18 16:30:14 EEST [go-local-dev-setup][@mac-02] [61451] STOP ::: running function :: do_morph_module  [0m
+[0;32m ✔ [OK]  [OK] 2023-09-18 16:30:14 EEST [go-local-dev-setup][@mac-02] [61451] run's run completed  [0m
